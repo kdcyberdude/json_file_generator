@@ -1,16 +1,18 @@
 name: json_file_generator
 description: It generates json file from static const string variables declared in .dart file. The generated file i.e strings.json could be used by mojito.global [Translation Management System(TMS)]
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/kdcyberdude/json_file_generator
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.8.0"
+  sdk: ">=2.17.0 <3.0.0"
 
+git@github:
+  com:kdcyberdude/json_file_generator:
+    git:
 dependencies:
   flutter:
     sdk: flutter
-  analyzer: ^2.4.0
+  analyzer: ^4.4.0
   args: ^2.0.0
   path: ^1.8.0
 

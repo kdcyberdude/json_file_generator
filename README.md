@@ -1,5 +1,4 @@
-# json_file_generator
-
+# json_file_generator - The package automates converting Dart strings to JSON files for use with Mojito TMS(Translation Management System) in the CD pipeline.
 json_file_generator generates json file from static const string variables declared in .dart file.
 The generated file i.e strings.json could be used by mojito.global [Translation Management System(TMS)]
 
